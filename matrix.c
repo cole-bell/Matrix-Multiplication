@@ -1,9 +1,3 @@
-/*
-Cole Bell : Helped to create children properly and debugged to create an appropriate amount of child processes. Tested to ensure accurate outputs by manipulating matrix size and values. Deleted unneccessary code and edited wait statements. Added and edited some comments for the sake of clarity in the code.
-Ahsif : Created matrix's, values to iterate. created For loops with math, tested proper fork locations and ensured that extra processes were terminated. Created Array of pipes as well as iterating through the pipes to collect the data in the parent process. Ensured math was populating properly, created loop to create new processes and delete unneccessary processes. Created parent process to evauluate and store pipes data, tested different matrix sizes.
-Leradee : Debugged the child processes and tested outputs with several matrix sizes and values to make sure the code works.
-Eris: Helped debug and clean up the code.
-*/
 
 #include <stdio.h>
 #include <stdlib.h>
