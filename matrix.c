@@ -51,9 +51,8 @@ int main()
         close(fd[count][1]);
         read(fd[count][0], &value3, sizeof(int)); //read data from current pipe
         Product[i][j] = value3; // store the current pipes data into the products matrix at correct location
-        printf("%d ", Product[i][j]); //print the values taht are stored in the current location of the products matrix
+        printf("%d ", Product[i][j]); //print the values that are stored in the current location of the products matrix
         count++; // increment the pipe so we can recieve the next piece of data.
-       // printf("The count is: %d\n", count);
       }
       printf("\n"); // create a line break in order to format the matrix properly
     }
